@@ -25,19 +25,23 @@ const App = () => {
           </ul>
         </div>
       </div>
-      <div className="flex items-center justify-around p-6 font-semibold text-blue-900 bg-white shadow-lg">
+      <div className="sticky top-0 z-50 flex items-center justify-around p-6 font-semibold text-blue-900 bg-white shadow-lg">
+        {/* sticky top-0 z-50 make it to stay on top when scroll down */}
         <div className="flex items-center gap-3 text-3xl font-thin">
           <GiBookmarklet /><h1 className="text-3xl">KUTheme </h1><span className="text-3xl text-black">University</span>
         </div>
         <div className="">
-          <ul className="flex text-md gap-14">
-            <li> <Link to="/">Home</Link></li>
-            <li> <Link to="/Page">Pages</Link></li>
-            <li> <Link to="/academics">Academics</Link></li>
-            <li> <Link to="/Admission">Admission</Link></li>
-            <li> <Link to="/Courses">Courses</Link></li>
-            <li> <Link to="/Athletics">Athletics</Link></li>
-            <li className="flex items-center"> <Link className="mr-5" to="/University">University Lift</Link><IoSearch className="text-black cursor-pointer"/></li>
+          <ul className="flex gap-12 text-md">
+            <li> <Link className="Navbar" to="/">Home</Link></li>
+            <li> <Link className="Navbar" to="/Page">About</Link></li>
+            <li> <Link className="Navbar" to="/academics">Academics</Link></li>
+            <li> <Link className="Navbar" to="/Admission">Admission</Link></li>
+            <li> <Link className="Navbar" to="/Courses">Courses</Link></li>
+            <li> <Link className="Navbar" to="/Athletics">Athletics</Link></li>
+           <div className="flex items-center">
+             <li className="flex items-center Navbar"> <Link className="mr-5" to="/University">University Lift</Link></li>
+            <IoSearch className="text-black cursor-pointer"/>
+           </div>
           </ul>
         </div>
       </div>
