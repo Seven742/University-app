@@ -463,11 +463,11 @@ const Home = () => {
 
             <div className='ml-4'>
               <h1 className='mt-8 text-xl font-semibold text-blue-950'>Fintech & Key Investment Conference</h1>
-              <div className='flex mt-8 text-green-600 text-center'>
+              <div className='flex mt-8 text-center text-green-600'>
                 <IoMdTime className='mt-[3px]' />
-                <p className='text-sm ml-2'>1:00 pm - 1:00 pm</p>
+                <p className='ml-2 text-sm'>1:00 pm - 1:00 pm</p>
                 <IoLocationOutline className='mt-[3px] ml-3' />
-                <p className='text-sm ml-2'>Kingster Grand Hall</p>
+                <p className='ml-2 text-sm'>Kingster Grand Hall</p>
               </div>
             </div>
           </div>
@@ -482,9 +482,9 @@ const Home = () => {
               <h1 className='mt-8 text-lg font-semibold text-blue-950'>Sport Management Information Webinar</h1>
               <div className='flex mt-8 text-green-600'>
                 <IoMdTime className='mt-[3px]' />
-                <p className='text-sm ml-2'>1:00 pm - 1:00 pm</p>
+                <p className='ml-2 text-sm'>1:00 pm - 1:00 pm</p>
                 <IoLocationOutline className='mt-[3px] ml-3' />
-                <p className='text-sm ml-2'>Kingster Grand Hall</p>
+                <p className='ml-2 text-sm'>Kingster Grand Hall</p>
               </div>
             </div>
           </div>
@@ -499,9 +499,9 @@ const Home = () => {
               <h1 className='mt-8 text-lg font-semibold text-blue-950'>Planning and Facilitating Effective Meetings</h1>
               <div className='flex mt-8 text-green-600'>
                 <IoMdTime className='mt-[3px]' />
-                <p className='text-sm ml-2'>1:00 pm - 1:00 pm</p>
+                <p className='ml-2 text-sm'>1:00 pm - 1:00 pm</p>
                 <IoLocationOutline className='mt-[3px] ml-3' />
-                <p className='text-sm ml-2'>Kingster Grand Hall</p>
+                <p className='ml-2 text-sm'>Kingster Grand Hall</p>
               </div>
             </div>
           </div>
@@ -516,10 +516,10 @@ const Home = () => {
             <div className='absolute inset-0 flex items-center justify-center w-full text-white'>
               <div className='flex flex-col items-center'>
 
-                <CiMail className='text-7xl text-green-700 mt-20' />
-                <h1 className='text-xl font-semibold text-white mt-8'>Subscribe To Newsletter</h1>
+                <CiMail className='mt-20 text-green-700 text-7xl' />
+                <h1 className='mt-8 text-xl font-semibold text-white'>Subscribe To Newsletter</h1>
                 <h1 className='mt-2 text-gray-300'>Get updates to news & events</h1>
-                <input type="text" placeholder='Your Gmail Address' className='p-4 pr-32 mt-9 focus:outline-none bg-black/70 text-white' />
+                <input type="text" placeholder='Your Gmail Address' className='p-4 pr-32 text-white mt-9 focus:outline-none bg-black/70' />
                 <button className='px-[128px] mt-3 py-4 bg-green-600 hover:bg-green-700 font-semibold'>Subscribe</button>
 
               </div>
@@ -533,10 +533,10 @@ const Home = () => {
         <div className="relative mt-20">
           <img src={Bg} alt="" className="h-[500px] w-full object-cover" />
           <div className="absolute inset-0 bg-black/60"></div>
-          <div className='absolute inset-0 flex  items-center justify-end w-full px-20  text-white'>
+          <div className='absolute inset-0 flex items-center justify-end w-full px-20 text-white'>
             <div className='flex flex-col mr-16'>
               <h1 className='ml-5 text-3xl font-semibold'>Search For Courses</h1>
-              <div className='flex  ml-5 gap-5 mt-5'>
+              <div className='flex gap-5 mt-5 ml-5'>
                 <div className='flex flex-col gap-4'>
                   <input type="text" className='w-full bg-[#2c3e50]/60 text-white p-3 rounded-md border border-gray-500 focus:outline-none' placeholder='Keywords' />
                   <div className="w-64">
@@ -627,7 +627,7 @@ const Home = () => {
         <footer>
           <div className='w-full h-[400px] bg-black/90 flex items-center justify-center text-white gap-20 px-20'>
             <div className='text-lg'>
-              <div className='flex text-center items-center text-white gap-3'>
+              <div className='flex items-center gap-3 text-center text-white'>
                 <GiBookmarklet className='text-4xl' /><h1 className='text-2xl'>Kingster University</h1>
               </div>
               <div className='mt-7 flex flex-col gap-0.5 text-gray-300'>
@@ -635,7 +635,7 @@ const Home = () => {
                 <h1>1810 Campus Way NE</h1>
                 <h1>Bothell, WA 98011-8246</h1>
               </div>
-              <div className='mt-5  flex flex-col'>
+              <div className='flex flex-col mt-5'>
                 <h1>+1-2534-4456-345</h1>
                 <a className='mt-3' href="">admin@kingsteruni.edu</a>
                 <div className='h-[3px] mt-5 bg-green-600 w-full'></div>
@@ -646,7 +646,7 @@ const Home = () => {
                 <h1 className='text-xl font-semibold'>Our Campus</h1>
                 <div className='h-[3px] mt-2 bg-green-600 w-[270px]'></div>
               </div>
-              <div className='flex flex-col mt-5 gap-3 text-gray-300 text-md'>
+              <div className='flex flex-col gap-3 mt-5 text-gray-300 text-md'>
                 <a className='hover' href="">Acedemic</a>
                 <a className='hover' href="">Planning & Administration</a>
                 <a className='hover' href="">Campus Safety</a>
@@ -660,7 +660,7 @@ const Home = () => {
                 <h1 className='text-xl font-semibold'>Campus Life</h1>
                 <div className='h-[3px] mt-2 bg-green-600 w-[270px]'></div>
               </div>
-              <div className='flex flex-col mt-5 gap-3 text-gray-300 text-md'>
+              <div className='flex flex-col gap-3 mt-5 text-gray-300 text-md'>
                 <a className='hover' href="">Accessibility</a>
                 <a className='hover' href="">Financial Aid</a>
                 <a className='hover' href="">Food Services</a>
@@ -674,7 +674,7 @@ const Home = () => {
                 <h1 className='text-xl font-semibold'>Academics</h1>
                 <div className='h-[3px] mt-2 bg-green-600 w-[270px]'></div>
               </div>
-              <div className='flex flex-col mt-5 gap-3 text-gray-300 text-md'>
+              <div className='flex flex-col gap-3 mt-5 text-gray-300 text-md'>
                 <a className='hover' href="">Canvas</a>
                 <a className='hover' href="">Catalyst</a>
                 <a className='hover' href="">Library</a>
