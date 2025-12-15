@@ -511,7 +511,7 @@ const Home = () => {
         </div>
         <div>
           <div className="relative">
-            <img src={Bg1} alt="" className="h-[450px]  w-[400px] object-cover" />
+            <img src={Bg1} alt="" className="h-[500px]  w-[400px] object-cover" />
             <div className="absolute inset-0 bg-black/60"></div>
             <div className='absolute inset-0 flex items-center justify-center w-full text-white'>
               <div className='flex flex-col items-center'>
