@@ -1,9 +1,11 @@
 import { Link, Outlet } from "react-router-dom";
+import { useState } from "react";
 import { IoMailOpen, IoSearch } from "react-icons/io5";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { GiBookmarklet } from "react-icons/gi";
 // https://demo.goodlayers.com/kingster/
 const App = () => {
+  const [active, setActive] = useState("benefits");
   return (
     <div className="w-full ">
       <div className="flex justify-around text-gray-300 bg-blue-900 gap-[360px]">
@@ -32,14 +34,72 @@ const App = () => {
         </div>
         <div className="">
           <ul className="flex gap-12 text-md">
-            <li> <Link className="Navbar" to="/">Home</Link></li>
-            <li> <Link className="Navbar" to="/Page">About</Link></li>
-            <li> <Link className="Navbar" to="/academics">Academics</Link></li>
-            <li> <Link className="Navbar" to="/Admission">Admission</Link></li>
-            <li> <Link className="Navbar" to="/Courses">Courses</Link></li>
-            <li> <Link className="Navbar" to="/Athletics">Athletics</Link></li>
+            <li
+              onClick={() => setActive("Home")}
+              className={`Navbarstyle
+               ${active === "Home"
+                  ? "after:w-full text-blue-900"
+                  : "after:w-0 text-blue-900 hover:after:w-full"
+                }
+            `}
+            > <Link className="Navbar" to="/">Home</Link></li>
+            <li
+              onClick={() => setActive("About")}
+              className={`Navbarstyle
+               ${active === "About"
+                  ? "after:w-full text-blue-900"
+                  : "after:w-0 text-blue-900 hover:after:w-full"
+                }
+            `}
+            > <Link className="Navbar" to="/Page">About</Link></li>
+            <li
+              onClick={() => setActive("Academics")}
+              className={`Navbarstyle
+               ${active === "Academics"
+                  ? "after:w-full text-blue-900"
+                  : "after:w-0 text-blue-900 hover:after:w-full"
+                }
+            `}
+            > <Link className="Navbar" to="/academics">Academics</Link></li>
+            <li
+              onClick={() => setActive("Admission")}
+              className={`Navbarstyle
+               ${active === "Admission"
+                  ? "after:w-full text-blue-900"
+                  : "after:w-0 text-blue-900 hover:after:w-full"
+                }
+            `}
+            > <Link className="Navbar" to="/Admission">Admission</Link></li>
+            <li
+              onClick={() => setActive("Courses")}
+              className={`Navbarstyle
+               ${active === "Courses"
+                  ? "after:w-full text-blue-900"
+                  : "after:w-0 text-blue-900 hover:after:w-full"
+                }
+            `}
+            >
+              <Link to="/Courses">Courses</Link>
+            </li>
+            <li
+              onClick={() => setActive("Athletics")}
+              className={`Navbarstyle
+               ${active === "Athletics"
+                  ? "after:w-full text-blue-900"
+                  : "after:w-0 text-blue-900 hover:after:w-full"
+                }
+            `}
+            > <Link className="Navbar" to="/Athletics">Athletics</Link></li>
             <div className="flex items-center">
-              <li className="flex items-center Navbar"> <Link className="mr-5" to="/University">University Lift</Link></li>
+              <li
+                onClick={() => setActive("University")}
+                className={`Navbarstyle
+               ${active === "University"
+                    ? "after:w-full text-blue-900"
+                    : "after:w-0 text-blue-900 hover:after:w-full"
+                  }
+            `}
+              > <Link className="mr-5" to="/University">University Lift</Link></li>
               <IoSearch className="text-black cursor-pointer" />
             </div>
           </ul>
