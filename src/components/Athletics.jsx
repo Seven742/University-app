@@ -11,11 +11,11 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { GiBookmarklet } from "react-icons/gi";
 import { ImQuotesLeft } from "react-icons/im";
-import banner1 from '../assets/banner-1.png';
-import banner2 from '../assets/banner-2.png';
-import banner3 from '../assets/banner-3.png';
-import banner4 from '../assets/banner-4.png';
-import banner5 from '../assets/banner-5.png';
+import Banner1 from '../assets/banner-1.png';
+import Banner2 from '../assets/banner-2.png';
+import Banner3 from '../assets/banner-3.png';
+import Banner4 from '../assets/banner-4.png';
+import Banner5 from '../assets/banner-5.png';
 import { AiOutlineFilePdf } from "react-icons/ai";
 
 const Athletics = () => {
@@ -171,12 +171,11 @@ const Athletics = () => {
       </div>
 
       <div className='flex justify-center gap-5 bg-[#1A1E36] py-14'>
-        <img src={banner1} alt="" />
-        <img src={banner2} alt="" />
-        <img src={banner3} alt="" />
-        <img src={banner4} alt="" />
-        <img src={banner5} alt="" />
-
+        <img src={Banner1} alt="" />
+        <img src={Banner2} alt="" />
+        <img src={Banner3} alt="" />
+        <img src={Banner4} alt="" />
+        <img src={Banner5} alt="" />
       </div>
 
       <div className='flex gap-20 p-28'>

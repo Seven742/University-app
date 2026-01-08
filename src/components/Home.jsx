@@ -108,13 +108,13 @@ const Home = () => {
           alt="slider"
         />
         {/* use absolute and inset-0 to make text or button in image bg */}
-        <div className='absolute inset-0 flex flex-col px-4 ml-32 text-white mt-44'>
-          <h1 className='text-3xl font-semibold'>The Best University Of The State</h1>
+        <div className='absolute inset-0 bottom-0 left-0 flex flex-col w-full px-4 text-white mt-44 h-2/2 bg-gradient-to-t from-black/80 to-transparent'>
+          <h1 className='ml-32 text-3xl font-bold'>The Best University Of The State</h1>
           <div>
-            <h1 className='my-5 text-7xl font-Libre '>Kingster University</h1>
+            <h1 className='my-5 ml-32 font-bold text-7xl '>Kingster University</h1>
           </div>
           <div>
-            <button className="px-6 py-4 my-5 text-lg font-semibold text-black bg-white border-l-4 border-green-600 hover:text-blue-700">
+            <button className="px-6 py-4 my-5 ml-32 text-lg font-semibold text-black bg-white border-l-4 border-green-600 hover:text-blue-700">
               Get Started
             </button>
           </div>
@@ -669,7 +669,7 @@ const Home = () => {
                 <a className='hover' href="">Student Life</a>
               </div>
             </div>
-           <div>
+            <div>
               <div>
                 <h1 className='text-xl font-semibold'>Academics</h1>
                 <div className='h-[3px] mt-2 bg-green-600 w-[270px]'></div>
@@ -685,15 +685,15 @@ const Home = () => {
             </div>
           </div>
           <div className='w-full h-[90px] bg-black/85 flex items-center justify-between px-28 text-white'>
-              <div>
-                  <h1>Copyright All Right Reserved 2025, GoodLayers</h1>
-              </div>
-              <div className='flex items-center gap-4 text-xl text-green-600'>
-                  <a href=""><FaFacebook className='hover'/></a>
-                  <a href=""><FaLinkedin className='hover'/></a>
-                  <a href=""><FaTwitterSquare className='hover'/></a>
-                  <a href=""><FaSquareInstagram className='hover'/></a>
-              </div>
+            <div>
+              <h1>Copyright All Right Reserved 2025, GoodLayers</h1>
+            </div>
+            <div className='flex items-center gap-4 text-xl text-green-600'>
+              <a href=""><FaFacebook className='hover' /></a>
+              <a href=""><FaLinkedin className='hover' /></a>
+              <a href=""><FaTwitterSquare className='hover' /></a>
+              <a href=""><FaSquareInstagram className='hover' /></a>
+            </div>
           </div>
         </footer>
       </div>
