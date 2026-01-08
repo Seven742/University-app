@@ -17,7 +17,7 @@ const Admission = () => {
       <div className="relative">
         <img
           src={Image1}
-          alt=""
+          alt="Admission"
           className="h-[580px] w-full object-cover"
         />
 
