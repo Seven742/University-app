@@ -1,5 +1,5 @@
 import React from 'react'
-import Image1 from '../assets/image1.jpg'
+import Image1 from '../assets/Image1.jpg'
 import { IoMdTime } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaFacebook } from "react-icons/fa";
