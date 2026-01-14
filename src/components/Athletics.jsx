@@ -1,8 +1,8 @@
 import React from 'react'
-import Image1 from '../assets/image1.jpg'
+import Image1 from '../assets/Image1.jpg'
 import { GrFormNextLink } from "react-icons/gr";
 import { MdKeyboardBackspace } from "react-icons/md";
-import Image2 from '../assets/image5.jpg'
+import Image2 from '../assets/Image5.jpg'
 import { IoMdTime } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaFacebook } from "react-icons/fa";
@@ -11,11 +11,11 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { GiBookmarklet } from "react-icons/gi";
 import { ImQuotesLeft } from "react-icons/im";
-import Banner1 from '../assets/banner-1.png';
-import Banner2 from '../assets/banner-2.png';
-import Banner3 from '../assets/banner-3.png';
-import Banner4 from '../assets/banner-4.png';
-import Banner5 from '../assets/banner-5.png';
+import Banner1 from '../assets/Banner-1.png';
+import Banner2 from '../assets/Banner-2.png';
+import Banner3 from '../assets/Banner-3.png';
+import Banner4 from '../assets/Banner-4.png';
+import Banner5 from '../assets/Banner-5.png';
 import { AiOutlineFilePdf } from "react-icons/ai";
 
 const Athletics = () => {
