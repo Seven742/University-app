@@ -1,11 +1,11 @@
 import React from 'react'
-import Image1 from '../assets/image1.jpg'
+import Image1 from '../assets/Image1.jpg'
 import { CgGym } from "react-icons/cg";
 import { GiChampions } from "react-icons/gi";
 import { MdOutlineDirectionsTransit } from "react-icons/md";
 import { LuSquareParking } from "react-icons/lu";
 import { ImQuotesLeft } from "react-icons/im";
-import Image2 from '../assets/image5.jpg'
+import Image2 from '../assets/Image5.jpg'
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
