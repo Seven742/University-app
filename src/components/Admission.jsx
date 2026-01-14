@@ -1,5 +1,5 @@
 import React from 'react'
-import Image1 from '../assets/image1.jpg'
+import Image1 from '../assets/Image1.jpg'
 import { MdCastForEducation } from "react-icons/md";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { GrNotes } from "react-icons/gr";
