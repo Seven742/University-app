@@ -1,12 +1,12 @@
 import React, { use } from 'react'
 import { useState, useEffect } from 'react'
-import Image1 from '../assets/image1.jpg'
-import Image4 from '../assets/image4.avif'
+import Image1 from '../assets/Image1.jpg'
+import Image4 from '../assets/Image4.avif'
 import { FaUniversity } from "react-icons/fa";
 import { RiGraduationCapFill } from "react-icons/ri";
 import { MdOutlineSportsTennis } from "react-icons/md";
 import { TbSocial } from "react-icons/tb";
-import Image from '../assets/image.png'
+import Image from '../assets/Image.png'
 import Bg from '../assets/bg.png'
 import Bg1 from '../assets/bg1.jpg'
 import { GiBookmarklet } from "react-icons/gi";
@@ -15,12 +15,12 @@ import { MdCastForEducation } from "react-icons/md";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { GrNotes } from "react-icons/gr";
 import { LiaUniversitySolid } from "react-icons/lia";
-import Image2 from '../assets/image5.jpg'
+import Image2 from '../assets/Image5.jpg'
 import { FaLink } from "react-icons/fa6";
 import { MdKeyboardBackspace, MdOutlineSlowMotionVideo } from "react-icons/md";
 import { FaTwitter } from "react-icons/fa";
-import video from '../assets/video.mp4'
-import Profile from '../assets/profile.jpg'
+import video from '../assets/Video.mp4'
+import Profile from '../assets/Profile.jpg'
 import { CiMail } from "react-icons/ci";
 import { IoMdTime } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
