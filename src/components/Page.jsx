@@ -1,5 +1,5 @@
 import React from 'react'
-import Image1 from '../assets/image1.jpg'
+import Image1 from '../assets/Image1.jpg'
 import { GiStabbedNote } from "react-icons/gi";
 import { FaUniversity } from "react-icons/fa";
 import { GiWorld } from "react-icons/gi";
