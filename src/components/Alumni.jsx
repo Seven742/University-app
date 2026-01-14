@@ -1,6 +1,6 @@
 import React from 'react'
-import Image1 from '../assets/image1.jpg'
-import Image2 from '../assets/image5.jpg'
+import Image1 from '../assets/Image1.jpg'
+import Image2 from '../assets/Image5.jpg'
 import { IoMdTime } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
 import { GrFormNextLink } from "react-icons/gr";
