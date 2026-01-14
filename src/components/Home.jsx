@@ -7,8 +7,8 @@ import { RiGraduationCapFill } from "react-icons/ri";
 import { MdOutlineSportsTennis } from "react-icons/md";
 import { TbSocial } from "react-icons/tb";
 import Image from '../assets/Image.png'
-import Bg from '../assets/bg.png'
-import Bg1 from '../assets/bg1.jpg'
+import Bg from '../assets/Bg.png'
+import Bg1 from '../assets/Bg1.jpg'
 import { GiBookmarklet } from "react-icons/gi";
 import { GrFormNextLink } from "react-icons/gr";
 import { MdCastForEducation } from "react-icons/md";
