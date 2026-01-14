@@ -1,12 +1,12 @@
 import React from 'react'
 import { useState } from 'react';
-import Image1 from '../assets/image1.jpg'
+import Image1 from '../assets/Image1.jpg'
 import { VscDebugBreakpointDataUnverified } from "react-icons/vsc";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
-import Profile from '../assets/profile.jpg'
+import Profile from '../assets/Profile.jpg'
 import { MdAddToPhotos } from "react-icons/md";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import { GiBookmarklet } from "react-icons/gi";
